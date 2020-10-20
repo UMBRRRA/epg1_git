@@ -1,0 +1,16 @@
+-> create a fork via GitHub website
+-> git clone https://github.com/UMBRRRA/epg1_git.git
+-> cd epg1_git
+-> git branch hw-s14903
+-> git checkout hw-s14903
+-> git checkout --track origin/rebase-me
+-> git checkout hw-s14903
+-> git rebase hw-s14903 rebase-me
+-> git checkout hw-s14903
+-> git merge --ff-only rebase-me
+-> git checkout --track origin/merge-me
+-> git checkout hw-s14903
+-> git merge merge-me -m "merge-me merge"
+-> git add README.md
+-> git commit -m "conflict resolved"
+-> git merge merge-me -m "merge-me merge"
